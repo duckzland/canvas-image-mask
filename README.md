@@ -18,3 +18,7 @@ Load the script as usual with `<script>` tag, modify the image markup to use :
 
 Script will autoload all images with 'image-mask' css class.
 
+
+Credits
+=======
+Almog Baku - https://github.com/AlmogBaku/imageMask
