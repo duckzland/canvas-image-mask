@@ -3,7 +3,8 @@ Canvas Image Mask
 
 jQuery script for masking image using pre-defined masking png and process them via HTML5 Canvas element
 
-- Currently only tested with Firefox.
+- Tested on Firefox, Chrome, Internet Explorer 9 & 10
+- Final result is not Canvas but Image
 - Will not work with CORS on IE's
 
 How to Use?
@@ -18,6 +19,13 @@ Load the script as usual with `<script>` tag, modify the image markup to use :
 
 Script will autoload all images with 'image-mask' css class.
 
+
+How to Help?
+============
+
+- Need testing feedback on Safari and mobile browsers.
+- Need example page and masking file examples
+- Fork fork and fork!
 
 Credits
 =======
