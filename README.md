@@ -9,7 +9,7 @@ jQuery script for masking image using pre-defined masking png and process them v
 How to Use?
 ===========
 
-Load the script as usual with <script> tag, modify the image markup to use :
+Load the script as usual with `<script>` tag, modify the image markup to use :
 
 ```
 <img class="image-mask" src="http://someurl.com/someimagefile.jpg" 
