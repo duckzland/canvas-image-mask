@@ -62,10 +62,10 @@
 				$(img).one('load', function() {
 				  
 				  // Draw the clone to the canvas
-					drawImg( $canvasObj, ctx, img );
+					drawImg($canvasObj, ctx, img);
 					
 					// Applying mask
-					applyMask( $canvasObj, ctx, $maskData );
+					applyMask($canvasObj, ctx, $maskData);
 
 					// Inject the masked image to clone
 					img.src = $canvasObj.toDataURL();
@@ -84,8 +84,8 @@
             .insertAfter($image);
 					
 					// Free up memory
-					$canvasObj.remove();
-					$image.remove();
+					$($canvasObj).remove();
+					$($image).remove();
 
 				});
 			});
